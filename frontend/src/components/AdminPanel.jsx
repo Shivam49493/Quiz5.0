@@ -35,7 +35,7 @@ function AdminPanel({ onBack }) {
     setUploadResults(null);
     
     try {
-      const response = await axios.post('http://localhost:5000/api/admin/upload', formData, {
+      const response = await axios.post('https://quiz5-0.onrender.com/api/admin/upload', formData, {
         headers: { 'Content-Type': 'multipart/form-data' }
       });
       
