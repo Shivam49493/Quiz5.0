@@ -25,7 +25,7 @@ function QuizSetup() {
 
     try {
       console.log('Fetching quiz for topic:', config.topic);
-      const response = await axios.get(`http://localhost:5000/api/quizzes/topic/${encodeURIComponent(config.topic)}`);
+      const response = await axios.get(`https://quiz5-0.onrender.com/api/quizzes/topic/${encodeURIComponent(config.topic)}`);
       
       if (!response.data || !response.data.questions) {
         throw new Error('Invalid quiz data received');
