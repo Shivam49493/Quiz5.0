@@ -21,7 +21,7 @@ function App() {
   const fetchTopics = async () => {
     try {
       setLoading(true);
-      const response = await axios.get('http://localhost:5000/api/quizzes/topics');
+      const response = await axios.get('https://quiz5-0.onrender.com/api/quizzes/topics');
       console.log('Fetched topics:', response.data);
       dispatch(setTopics(response.data));
       setError('');
