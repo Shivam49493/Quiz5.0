@@ -1,0 +1,30 @@
+{
+  "topic": "General Knowledge",
+  "questions": [
+    {
+      "question": "What is the capital of France?",
+      "options": ["London", "Berlin", "Paris", "Madrid"],
+      "answer": "Paris"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Mars", "Jupiter", "Venus", "Saturn"],
+      "answer": "Mars"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "options": ["Van Gogh", "Picasso", "Da Vinci", "Rembrandt"],
+      "answer": "Da Vinci"
+    },
+    {
+      "question": "What is the largest ocean on Earth?",
+      "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+      "answer": "Pacific"
+    },
+    {
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "options": ["Charles Dickens", "Jane Austen", "William Shakespeare", "Mark Twain"],
+      "answer": "William Shakespeare"
+    }
+  ]
+}
